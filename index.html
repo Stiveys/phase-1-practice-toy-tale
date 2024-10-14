@@ -14,23 +14,26 @@
     </div>
 
     <div class="container">
-      <form class="add-toy-form">
+      <form class="add-toy-form" id="add-toy-form">
         <h3>Create a toy!</h3>
-
         <input
           type="text"
           name="name"
+          id="toy-name"
           value=""
           placeholder="Enter a toy's name..."
           class="input-text"
+          required
         />
         <br />
         <input
-          type="text"
+          type="url"
           name="image"
+          id="toy-image"
           value=""
           placeholder="Enter a toy's image URL..."
           class="input-text"
+          required
         />
         <br />
         <input
